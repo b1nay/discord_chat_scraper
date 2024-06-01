@@ -4,7 +4,7 @@ import pandas as pd
 
 
 
-auth = str(input("Enter Authorization"))
+auth = str(input("Enter Authorization\n"))
 
 channelid = int(input("Enter The Channel ID you want to export chats from\n")) #Channel ID
 
