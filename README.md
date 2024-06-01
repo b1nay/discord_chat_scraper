@@ -5,11 +5,11 @@ Scrapes specified number of recent chats from desired Discord channel
 pip install -r requirements.txt
 
 # scraping the messages
- -> Open the Discord Channel in your browser
- -> Start Dev Tools > Network 
- -> Type something in the text area of the chat, you'll notice a new header
- -> Scroll to authorization, copy
- -> Click on any old message on the channel you want to scrape > Copy Link > Copy the channel ID
- ![alt text](image.png)
- -> Run python main.py
- -> Proceed as directed
+ -> Open the Discord Channel in your browser <br>
+ -> Start Dev Tools > Network  <br>
+ -> Type something in the text area of the chat, you'll notice a new header <br>
+ -> Scroll to authorization, copy <br>
+ -> Click on any old message on the channel you want to scrape > Copy Message Link > Copy the channel ID <br>
+ ![channel ID](image.png) <br>
+ -> Run python main.py <br>
+ -> Proceed as directed <br>
