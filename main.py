@@ -10,7 +10,7 @@ channelid = int(input("Enter The Channel ID you want to export chats from\n")) #
 
 limit = int(input("Enter the number of last messages you wanna export \n"))  #Number of Last Messages
 
-datas = [] 
+data = [] 
 
 def retrieve_messages(channelid):
     headers = {
@@ -24,11 +24,11 @@ def retrieve_messages(channelid):
         i = 1
         while i < limit:
             i +=1
-            datas.insert(i, liyeko)
+            data.insert(i, liyeko)
             break
     
-    print(datas)
-    df = pd.DataFrame(datas)
+    print(data)
+    df = pd.DataFrame(data)
     df.to_excel("retrieved_messages.xlsx")
     
    
